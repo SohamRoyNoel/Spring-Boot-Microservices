@@ -1,0 +1,5 @@
+package com.microservices.limitservices.controller.models;
+
+public class limitConfiguration {
+
+}

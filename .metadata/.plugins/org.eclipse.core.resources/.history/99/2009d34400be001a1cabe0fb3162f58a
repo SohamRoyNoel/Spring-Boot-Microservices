@@ -1,0 +1,8 @@
+package com.microservices.limitservices.conf;
+
+import org.springframework.boot.context.properties.ConfigurationProperties;
+
+@ConfigurationProperties("limit-services")
+public class ConfigurationReader {
+
+}

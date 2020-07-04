@@ -1,0 +1,22 @@
+package com.microservices.limitservices.conf;
+
+import org.springframework.boot.context.properties.ConfigurationProperties;
+
+@ConfigurationProperties("limit-services")
+public class ConfigurationReader {
+
+	private int maximum;
+	private int minimum;
+	
+	public ConfigurationReader(int maximum, int minimum) {
+		this.maximum = maximum;
+		this.minimum = minimum;
+	}
+
+	public ConfigurationReader() {
+		
+	}
+	
+	
+	
+}

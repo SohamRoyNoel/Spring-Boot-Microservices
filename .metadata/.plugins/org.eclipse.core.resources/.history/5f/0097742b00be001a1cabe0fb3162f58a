@@ -1,0 +1,5 @@
+package com.microservices.limitservices.conf;
+
+public class ConfigurationReader {
+
+}
